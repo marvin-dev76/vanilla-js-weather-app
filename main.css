@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import "./css/navbar.css";
+@import "./css/weatherCard.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: rgba(29, 34, 38, 0.5);
+  --bg-nav: rgba(29, 34, 38, 0.75);
+  --fg: #8FAE8C;
+}
+
+.light {
+  --bg: rgba(143, 174, 140, 0.5);
+  --bg-nav: rgba(143, 174, 140, 0.75);
+  --fg: #1D2226;
+}
+
+body {
+  font-family: "Lato";
+}
+
+.background {
+  background-image: url("./background.jpg");
+  /* background-image: url('https://source.unsplash.com/random/?rain-forest'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0;
+}
+
+.container {
+  max-width: 1000px;
+  width: 85%;
+  margin: 0 auto;
+  background-color: var(--bg);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding-bottom: 22px;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.subcontainer {
+  min-height: 630px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .subcontainer {
+    gap: 40px;
+    min-height: 750px;
+  }
+}

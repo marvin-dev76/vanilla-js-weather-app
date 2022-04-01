@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-weather-app",
+  "version": "1.0.0",
+  "description": "## Light Theme",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvin-dev76/vanilla-js-weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvin-dev76/vanilla-js-weather-app/issues"
+  },
+  "homepage": "https://github.com/marvin-dev76/vanilla-js-weather-app#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
