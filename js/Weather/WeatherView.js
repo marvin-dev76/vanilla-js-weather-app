@@ -38,7 +38,7 @@ class WeatherView {
       "09d": '<i class="wi wi-day-rain"></i>',
       "10d": '<i class="wi wi-day-rain"></i>',
       "13d": '<i class="wi wi-day-snow"></i>',
-      "50d": '<i className="wi wi-day-fog"></i>',
+      "50d": '<i class="wi wi-day-fog"></i>',
       "01n": '<i class="wi wi-night-clear"></i>',
       "02n": '<i class="wi wi-night-alt-cloudy"></i>',
       "03n": '<i class="wi wi-night-alt-cloudy"></i>',
